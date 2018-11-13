@@ -1,20 +1,30 @@
-.header {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: white;
-    float: left;
-    margin: 0;
+* {
+    background-color: #e7e7e7;
+    margin: 0px;
+}
 
+* h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+* h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+* p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.navbar {
+    background-color: white;
 }
 
 .navbar ul {
     list-style-type: none;
+    display: block;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px #000000
 }
 
 .navbar li {
@@ -23,20 +33,66 @@
 
 .navbar li a {
     display: block;
-    color: white;
+    color: #777777;
     text-align: center;
-    padding: 14px 16px;
+    padding: 22px 22px;
     text-decoration: none;
+    background-color: white;
+    float: left;
 }
 
 .navbar li a:hover {
-    background-color: #111;
+    background-color: #4aaaa5;
+    color: white;
 }
 
+.navbar ul h1 {
+    float: left;
+    background-color: #4aaaa5;
+    margin: 0px;
+    margin-left: 200px;
+    padding: 14px;
+    color: white;
+}
 .content {
+    margin: 20px 200px;
+    background-color: white;
+}
 
+.content * {
+    background-color: white;
+
+}
+.content h2 {
+    font-size: 32px;
+    padding: 20px;
+}
+
+.content hr {
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 20px;
+    padding: 0px 0px 10px 0px;
+}
+
+.content img {
+    float: left;
+    margin: 0px 10px;
+    
+}
+
+.footerLine {
+    width: 100%;
+    height: 15px;
+    margin: 0px;
+    background-color: #4aaaa5;
 }
 
 .footer {
-
-}
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+}   
