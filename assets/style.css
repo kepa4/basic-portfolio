@@ -35,7 +35,7 @@
     display: block;
     color: #777777;
     text-align: center;
-    padding: 22px 22px;
+    padding: 23px;
     text-decoration: none;
     background-color: white;
     float: left;
@@ -68,6 +68,11 @@
 
 .content hr {
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 1px;
+    background-color: #666666; 
+
 }
 
 .content p {
@@ -76,18 +81,24 @@
     padding: 0px 0px 10px 0px;
 }
 
+.content p#aboutMe {
+    margin: 20px;
+}
+
+
 .content img {
     float: left;
-    margin: 0px 10px;
-    
+}
+
+.content img#aboutMe {
+    float: left;
+    margin: 0px 20px;
 }
 
 .footerContainer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center; 
+    background-color: #efefef;
+    flex: 0 0 50px;
+    margin-top: auto;
 
 }
 
@@ -114,7 +125,7 @@
     float: left;
     position: relative;
     left: 0px;
-    margin: 10px;
+    margin: 0px 0px 20px 20px;
     background-color: white;
     display: table;
 }
@@ -136,4 +147,50 @@
     position: absolute;
     width: 100%;
     top: 80%;
+    line-height: 30px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+.content form {
+    padding: 0px 20px;
+    background-color: white;
+}
+
+.content form p {
+   padding: 10px 0px 0px 0px;
+}
+
+input {
+    width: 80%; 
+    background-color: white;
+    margin: 0;
+}
+
+textarea {
+    position: relative;
+    height: 300px;
+    width: 80%;
+    background-color: white;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 20px;
+    background-color: #4aaaa5;
+    border: none; 
+    color: white;
+
+}
+
+button:hover {
+    background-color: #388581;
+}
+
+button:active {
+    background-color: #173836;
 }
