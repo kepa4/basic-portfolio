@@ -24,7 +24,7 @@
     padding: 0;
     overflow: hidden;
     background-color: white;
-    box-shadow: 0px 0px 8px 0px #000000
+    box-shadow: 0px 0px 8px 0px #000000;
 }
 
 .navbar li {
@@ -50,21 +50,17 @@
     float: left;
     background-color: #4aaaa5;
     margin: 0px;
-    margin-left: 200px;
     padding: 14px;
     color: white;
 }
 .content {
-    margin: 20px 200px;
+    margin: 20px 5em;
     background-color: white;
     position: relative;
 }
 
-.content * {
-    background-color: white;
-
-}
 .content h2 {
+    background-color: white;
     font-size: 32px;
     padding: 20px;
     color: #4aaaa5;
@@ -75,6 +71,7 @@
 }
 
 .content p {
+    background-color: white;
     font-size: 20px;
     padding: 0px 0px 10px 0px;
 }
@@ -83,6 +80,15 @@
     float: left;
     margin: 0px 10px;
     
+}
+
+.footerContainer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; 
+
 }
 
 .footerLine {
@@ -100,22 +106,34 @@
 }   
 
 .content .card {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    background-color: white;
+
+}
+
+.card {
+    float: left;
+    position: relative;
+    left: 0px;
+    margin: 10px;
+    background-color: white;
+    display: table;
+}
+
+.card img:hover {
+    box-shadow: 0px 0px 8px 0px #000000;
 }
 
 .card img {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    margin: 0;
+    background-color: white;
 
 }
 
-.card p {
+.card .text p {
     background-color: #4aaaa5;
     text-align: center;
+    height: 30px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    width: 100%;
+    top: 80%;
 }
